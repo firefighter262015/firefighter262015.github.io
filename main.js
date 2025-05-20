@@ -1,7 +1,7 @@
 const randomNumber = Math.floor(Math.random() * 20) + 1;
 const button = document.querySelector(".btn");
 const again_button = document.querySelector(".btn-play-again");
-
+const win_button_again = document.querySelector(".btn-play-again-win");
 
 const hidden_lower_message = document.querySelector(".hidden-lower-message");
 const hidden_higher_message = document.querySelector(".hidden-higher-message");
@@ -46,6 +46,20 @@ if (button) {
 // Attach this ONCE, outside the main button handler
 if (again_button) {
     again_button.addEventListener("click", function() {
+        window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
+        score.textContent = 1000;
+        hidden_lower_message.classList.add("hidden1");
+        hidden_higher_message.classList.add("hidden2");
+        lose_message.classList.add("hidden-lose");
+        win_message.classList.add("hidden-win");
+        input.value = "";
+        // If you want to reset the random number, use a variable (see note below)
+        randomNumber = Math.floor(Math.random() * 20) + 1;
+    });
+}
+
+if (win_button_again) {
+    win_button_again.addEventListener("click", function() {
         window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
         score.textContent = 1000;
         hidden_lower_message.classList.add("hidden1");
