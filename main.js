@@ -46,7 +46,7 @@ if (button) {
 // Attach this ONCE, outside the main button handler
 if (again_button) {
     again_button.addEventListener("click", function() {
-        // window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
+        window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
         score.textContent = 1000;
         hidden_lower_message.classList.add("hidden1");
         hidden_higher_message.classList.add("hidden2");
@@ -59,7 +59,7 @@ if (again_button) {
 }
 if (win_button_again) {
     win_button_again.addEventListener("click", function() {
-        // window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
+        window.open("https://www.profitableratecpm.com/r2i0ezkhbh?key=b2a2da489188566a8db0ea4a39642fac", '_blank');
         score.textContent = 1000;
         hidden_lower_message.classList.add("hidden1");
         hidden_higher_message.classList.add("hidden2");
