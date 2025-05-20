@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 20) + 1;
 const button = document.querySelector(".btn");
 const again_button = document.querySelector(".btn-play-again");
 const win_button_again = document.querySelector(".btn-play-again-win");
